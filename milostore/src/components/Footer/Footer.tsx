@@ -29,17 +29,6 @@ const Footer = () => {
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-white">Sobre nosotros</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                                <li className="mb-4">
-                                    <a href="https://flowbite.com/" className="hover:underline">Quienes somos?</a>
-                                </li>
-                                <li>
-                                    <a href="https://tailwindcss.com/" className="hover:underline">Donde estamos?</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-white">Nuestras redes</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
@@ -54,7 +43,10 @@ const Footer = () => {
                             <h2 className="mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-white">Productos</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Todos</a>
+                                    <a href="/productos" className="hover:underline">Todos</a>
+                                </li>
+                                <li className="mb-4">
+                                    <a href="/ultimosIngresos" className="hover:underline">Ultimos ingresos</a>
                                 </li>
                             </ul>
                         </div>
