@@ -23,7 +23,7 @@ const nosotros = () => {
 
 
     return (
-        <div className="min-h-screen pt-[80px] md:pt-[120px]">
+        <div className="min-h-screen bg-white dark:bg-white pt-[80px] md:pt-[120px]">
             <div className="relative w-full h-[400px] md:h-[600px]">
                 {/* Imagen de fondo */}
                 <Image

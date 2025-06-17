@@ -15,7 +15,7 @@ const ProductDetailPage = async ({ params }: ProductPageProps) => {
         const productByID = await fetchingProductByID(productId);
 
         return (
-            <div className="w-full bg-white min-h-[700px] mx-auto  pt-[80px] md:pt-[120px]">
+            <div className="w-full bg-white dark:bg-white min-h-[700px] mx-auto  pt-[80px] md:pt-[120px]">
                 <ProductDetail product={productByID} />
             </div>
 
